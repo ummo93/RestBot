@@ -1,0 +1,6 @@
+{
+  "name": "RestBotDemo",
+  "description": "Node.js bot for messenger using Express and BotKit",
+  "repository": "https://github.com/ummo93/RestBot",
+  "keywords": ["node", "express", "botkit"]
+}
