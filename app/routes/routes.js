@@ -7,7 +7,6 @@ module.exports = function (app) {
   });
 
   app.get('/webhook', function (req, res) {
-    console.log(process.env.FACEBOOK_VERIFY_TOKEN);
 
     // This enables subscription to the webhooks
     if (req.query['hub.mode'] === 'subscribe' && req.query['hub.verify_token'] === process.env.FACEBOOK_VERIFY_TOKEN) {

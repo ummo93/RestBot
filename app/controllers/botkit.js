@@ -8,8 +8,8 @@ let localstorage = new LocalStorage();
 
 let controller = Botkit.facebookbot({
     debug: false,
-    access_token: process.env.FACEBOOK_PAGE_TOKEN,
-    verify_token: process.env.FACEBOOK_VERIFY_TOKEN
+    access_token: (process.env.FACEBOOK_PAGE_TOKEN || "NULL"),
+    verify_token: (process.env.FACEBOOK_VERIFY_TOKEN || "test")
 });
 
 let bot = controller.spawn({});
