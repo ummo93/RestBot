@@ -7,10 +7,14 @@ This app is a demo of using [Botkit](https://github.com/howdyai/botkit) to creat
 ## Instructions for use
 To use with your facebook page and application on [developers-facebook](https://developers.facebook.com).
 
-In .env file you must change the application id, page id, page token, verify token.
+On your heroku dashboard you may to config variables ("settings" tab in your application dashboard);
+List of using variables:
 
-Have a nice direction! :)
+FACEBOOK_APP_ID - id of your application on developers.facebook website;
 
+FACEBOOK_PAGE_TOKEN - page token, that you takes from "webhook" tab in dashboard of your application on developers.facebook website;
+
+FACEBOOK_VERIFY_TOKEN - your verify token, that you configurate when you got bind your heroku application to facebook app;
 
 ## Botkit author
 [Matthieu Varagnat](https://twitter.com/MVaragnat)
